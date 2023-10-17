@@ -1,0 +1,5 @@
+from task01rand_numbers import rnd_num_pairs
+from task02rand_names import rnd_name
+from task03merge import open_file
+from task04rename_file import create_files
+from task05sort import sort_files
