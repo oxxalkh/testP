@@ -25,6 +25,7 @@ import os
 #
 # sort_files(pathlib.Path(r"C:\Users\ksmos\PycharmProjects\pythonProject\Seminar07\test"))
 
+
 def sort_files(path):
     """
     Сортирует файлы согласно их разрешений. Создает папку для каждого типа из них

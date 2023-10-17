@@ -6,15 +6,15 @@ print(f'{a=}, {type(a)=}, {a.__sizeof__()=}, {len(a)}')
 b = range(-1_000_000, 1_000_000, 2)
 print(f'{b=}, {type(b)=}, {b.__sizeof__()=}, {len(b)}')
 
-my_gen = (chr(i) for i in range(97, 123))
-print(my_gen) # <generator object <genexpr> at0x000001ED58DD7D60>
-for char in my_gen:
-    print(char)
-
 # Для создания генераторного выражения используют круглые скобки, внутри
 # которых прописывается логика выражения. В нашем примере циклический перебор
 # целых чисел от 97 до 122 и возврат символов из таблицы ASCII с
 # соответствующими кодами.
+
+my_gen = (chr(i) for i in range(97, 123))
+print(my_gen) # <generator object <genexpr> at0x000001ED58DD7D60>
+for char in my_gen:
+    print(char)
 
 
 
