@@ -40,5 +40,6 @@ def names_to_file(count, file_name):
         for i in range(count):
             f.write(rnd_name(4, 7)+"\n")
 
+
 if __name__ == "__main__":
     names_to_file(5, "random_names.txt")
