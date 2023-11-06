@@ -1,0 +1,2 @@
+ERROR, 2023-11-07 01:02:07,203, Ошибка [WinError 3] Системе не удается найти указанный путь: 'C:\\Users\\ksmos\\PycharmProjects\\pytho' в функции dir_info при некорректно указанном пути ('C:\\Users\\ksmos\\PycharmProjects\\pytho',)
+ERROR, 2023-11-07 01:02:43,861, Ошибка [WinError 3] Системе не удается найти указанный путь: 'C:\\Users\\ksmos\\PycharmProjects\\pytho' в функции dir_info при некорректно указанном пути ('C:\\Users\\ksmos\\PycharmProjects\\pytho',)
