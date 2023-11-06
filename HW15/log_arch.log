@@ -1,0 +1,2 @@
+ERROR, 2023-11-07 00:16:04,362, Invalid number: -34.0. Number should be a positive integer or float.
+INFO, 2023-11-07 00:16:24,054, Created Archive with text: gg, number: 3.0
